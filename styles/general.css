@@ -1,0 +1,127 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 768px) {
+  div.nav-bar {
+    background-color: rgb(43, 51, 163);
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  div.nav-col-3 {
+    display: none;
+  }
+
+  div.sidebar {
+    display: none;
+  }
+
+  div.about-me {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.abt-me-text {
+    width: 100%;
+    padding-left: 9px;
+    padding-right: 9px;
+    text-align: center;
+  }
+
+  p.title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  p {
+    padding-left: 5px;
+    padding-right: 4px;
+  }
+
+  div.social-low-cont {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  p.social-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  div.contact {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  div.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  p.projects-title {
+    display: none;
+  }
+
+  div.projects {
+    padding-top: 20px;
+     padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  div.social {
+     padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  div.frames {
+    display: flex;
+    flex-direction: column;
+  }
+
+  p.projects-t-mobile {
+    display: contents;
+  }
+
+  div.social-low-cont {
+    padding-top: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  div.abt-me-text {
+    width: 500px;
+  }
+  div.sidebar {
+    z-index: 100;
+    top: 90px;
+    width: 80px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    flex-shrink: 0;
+  }
+
+  div.nav-col-3 {
+    display: contents;
+  }
+}
+@media only screen and (min-width: 770px) {
+}

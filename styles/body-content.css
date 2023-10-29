@@ -1,0 +1,250 @@
+.body {
+  position: relative;
+  top: 90px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: center;
+  vertical-align: top;
+  gap: 20px;
+  text-align: center;
+  color: white;
+  font: 24px;
+  left: 0;
+  right: 0;
+}
+
+.profile {
+  width: 240px;
+  height: 240px;
+  border-radius: 120px;
+  border-style: none;
+  box-shadow: 1px 4px 7px rgb(83, 83, 197);
+}
+
+p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-wrap: inherit;
+  text-align: left;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.abt-me-text {
+  flex: 1;
+  width: 500px;
+}
+
+.title {
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(83, 83, 197);
+}
+
+.name {
+  font-size: 20px;
+  color: rgb(1, 141, 1);
+  font-weight: 600;
+}
+
+.profile-link {
+  text-decoration: none;
+  color: rgb(202, 90, 10);
+}
+
+.projects {
+  left: 0;
+  right: 0;
+  color: white;
+  font: 24px;
+  text-align: center;
+}
+
+.frames {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.iframe {
+  height: 300px;
+  width: 300px;
+  border: none;
+  box-shadow: 0.5px 2px 5px 3px rgba(128, 128, 128, 0.493);
+}
+
+.projects-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(98, 194, 3);
+}
+
+  .projects-t-mobile {
+    display: none;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(98, 194, 3);
+  }
+
+.social {
+  left: 0;
+  right: 0;
+  color: white;
+  font: 24px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.social-low-cont {
+  padding-top: 200px;
+  padding-bottom: 40px;
+  display: flex;
+  gap: 60px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links {
+  cursor: pointer;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.15s;
+  transition: text-decoration 0.25s;
+}
+
+.social-links:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.social-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(50, 50, 175);
+}
+.contact {
+  left: 0;
+  right: 0;
+  color: white;
+  font: 24px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+
+.contact-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(139, 84, 8);
+}
+
+.contact-form {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.cont-col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  padding-left: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  border-radius: 24px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.query {
+  height: 150px;
+  border-radius: 15px;
+}
+
+.footer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgb(37, 37, 37);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: 50px;
+  flex-shrink: 0;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.footer a {
+  width: 150px;
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+  transition: text-decoration 0.15s;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.picture {
+  flex: 0;
+}
